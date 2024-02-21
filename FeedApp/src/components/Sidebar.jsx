@@ -15,7 +15,7 @@ export function Sidebar(){
                     className={styles.avatar}
                     src="https://avatars.githubusercontent.com/u/16235503?v=4" 
                 />
-                <strong>Kleiton Silva</strong>
+                <strong>Kleiton Souza</strong>
                 <span>Frontend Developer</span>
             </div>
 

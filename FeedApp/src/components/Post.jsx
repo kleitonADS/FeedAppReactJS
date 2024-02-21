@@ -1,8 +1,36 @@
+import styles from './Post.module.css'
+
 export function Post(){
     return(
-        <div>
-            <p></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste at tenetur temporibus consectetur labore autem, dignissimos accusantium dolor eius magnam nihil adipisci vitae mollitia, fugiat ullam quis officiis ipsa? Recusandae.
+        <article className={styles.post}>
+            <header>
+                <div className={styles.author}>
+                    <img 
+                        className={styles.avatar} 
+                        src="https://avatars.githubusercontent.com/u/16235503?v=4" 
+                    />
+                    <div className={styles.authorInfo}>
+                        <strong>Kleiton Souza</strong>
+                        <span>Web Developer</span>
+                    </div>
+                </div>
+                <time 
+                    title='11 de feb às 15:30h' 
+                    dateTime='20224-02-21 15:13:30'>
+                    Publicado há 1h
+                </time>
+            </header>
 
-        </div>
+            <div className={styles.content}>
+                <p>Fala developers </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, deserunt libero harum quae molestiae dicta enim fugiat aut ratione aperiam in, esse voluptatibus nulla tempora soluta nemo, dolorem tempore ullam.,/</p>
+                <p>
+                    <a href="#">link project</a>
+                    <a href="#">#ReactJS #Rocket</a>
+                </p>
+            </div>
+
+
+        </article>
     )
 }
