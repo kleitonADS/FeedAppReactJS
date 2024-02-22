@@ -25,8 +25,14 @@ export function Post(){
                 <p>Fala developers </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, deserunt libero harum quae molestiae dicta enim fugiat aut ratione aperiam in, esse voluptatibus nulla tempora soluta nemo, dolorem tempore ullam.,/</p>
                 <p>
-                    <a href="#">link project</a>
-                    <a href="#">#ReactJS #Rocket</a>
+                    <a href="#">link project</a>{' '}
+                    
+                </p>
+                <p>
+                    <a href="#">#ReactJS </a>
+                    <a href="#">#RocketSeat </a>
+                    <a href="#">#Javascript </a>
+
                 </p>
             </div>
 
