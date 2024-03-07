@@ -104,7 +104,6 @@ export function Post({author, publishedAt, content}){
                             content={comments}
                             key={comments}
                             onDeleteComment={deleteComment}
-                            
                             />
                 })}
             </div>
